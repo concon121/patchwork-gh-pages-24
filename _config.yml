@@ -1,0 +1,20 @@
+# Site settings
+title: Connor's Profile
+email: connor.bray@icloud.com
+description: > # this means to ignore newlines until "baseurl:"
+  Learn to use GitHub pages with Wheelhouse.io and Patchwork!
+baseurl: "/project-gh-pages"
+url: "http://concon121.github.io"
+github_username:  concon121
+permalink: /blog/:year/:title/
+
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+
+collections:
+    - index
